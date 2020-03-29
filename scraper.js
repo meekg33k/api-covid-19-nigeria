@@ -11,9 +11,10 @@ const {
 	getTotalCountByCategory
 } = require('./utils');
 
-var results = []
+var results = [];
 
 const scrape = async () => {
+	results = [];
 	try {
 		res = await fetch(DATA_SRC_URL);
 		const markup = await res.text();
