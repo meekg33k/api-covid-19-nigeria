@@ -4,7 +4,7 @@
   "description": "A simple web crawler to scrape COVID-19 spread data from reports given by NCDC.gov.ng",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "htmlparser2": "^4.1.0",
     "isomorphic-fetch": "^2.2.1",
     "nodemon": "^2.0.2"
